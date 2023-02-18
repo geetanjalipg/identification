@@ -1,0 +1,27 @@
+body{
+    background-color:cornsilk;
+    color:crimson;
+  font-family: 'Lobster', cursive; 
+}
+
+canvas{
+  border: 5px solid crimson;
+  border-radius: 20px;
+  animation-name:example;
+  animation-duration: 4s
+  ;
+ 
+  animation-iteration-count: infinite;
+  margin-top: 40px;
+}
+@keyframes example {
+  from{
+    box-shadow: 1px 1px 38px crimson;
+  }
+  to{
+    box-shadow:  1px 1px 38px beige;
+  }
+}
+p{
+  margin-top: 10px;
+}
